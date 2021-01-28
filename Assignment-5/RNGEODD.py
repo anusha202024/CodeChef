@@ -3,12 +3,13 @@
 #(both inclusive) in a single line separated by space.
 #And they should be in ascending order.
 
-N , K = map(int , input().split())
-A = list(map(int, input().split()[:N]))
-if K in A:
-    print(1)
-else:
-    print(-1)
+L , R = map(int , input().split())
+while L <= R:
+    if L%2==0:
+        L += 1 
+    else:
+        print(L)
+        L += 2
 
 #Sample Input 1:
 #2 9
