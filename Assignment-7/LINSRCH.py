@@ -6,4 +6,4 @@ for j in range(int(input())):
 	if int(input()) in s:
 	    print("yes")
 	else:
-		print("no")
+	    print("no")
